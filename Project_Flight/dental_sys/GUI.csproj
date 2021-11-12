@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{29798AD8-30B0-4AE5-B5FF-9FA7FD4F7CFC}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>dental_sys</RootNamespace>
+    <AssemblyName>dental_sys</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DLL_DAL">
+      <HintPath>..\DLL_DAL\bin\Debug\DLL_DAL.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\Desktop\Guna\Guna.UI-Framework-Lib-master\Guna.UI_WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\..\..\Desktop\Guna\Guna.UI-Framework-Lib-master\Guna.UI2_WinFroms\.net 4.0\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="Newtonsoft.Json, Version=9.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.9.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net.Http.Formatting, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FormMain\BanVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain\BanVe.Designer.cs">
+      <DependentUpon>BanVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain\ChuyenBay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain\ChuyenBay.Designer.cs">
+      <DependentUpon>ChuyenBay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain\DoanhThu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain\DoanhThu.Designer.cs">
+      <DependentUpon>DoanhThu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdd\DatVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdd\DatVe.Designer.cs">
+      <DependentUpon>DatVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdd\QuyDinhGia.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdd\QuyDinhGia.Designer.cs">
+      <DependentUpon>QuyDinhGia.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdd\ThemChuyenBay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdd\ThemChuyenBay.Designer.cs">
+      <DependentUpon>ThemChuyenBay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdd\ThemNhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdd\ThemNhanVien.Designer.cs">
+      <DependentUpon>ThemNhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdd\ThemTuyenBay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdd\ThemTuyenBay.Designer.cs">
+      <DependentUpon>ThemTuyenBay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain\KhachHang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain\KhachHang.Designer.cs">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain\TuVan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain\TuVan.Designer.cs">
+      <DependentUpon>TuVan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain\XemVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain\XemVe.Designer.cs">
+      <DependentUpon>XemVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain\NhanVien.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain\NhanVien.Designer.cs">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="FormMain\QuyDinhVe.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain\QuyDinhVe.Designer.cs">
+      <DependentUpon>QuyDinhVe.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain\SanBay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain\SanBay.Designer.cs">
+      <DependentUpon>SanBay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormAdd\ThemSanBay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormAdd\ThemSanBay.Designer.cs">
+      <DependentUpon>ThemSanBay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain\TuyenBay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain\TuyenBay.Designer.cs">
+      <DependentUpon>TuyenBay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\itemdatve.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\itemdatve.Designer.cs">
+      <DependentUpon>itemdatve.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Listitem.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControls\Listitem.Designer.cs">
+      <DependentUpon>Listitem.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FormAdd\DatVe.resx">
+      <DependentUpon>DatVe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdd\QuyDinhGia.resx">
+      <DependentUpon>QuyDinhGia.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdd\ThemChuyenBay.resx">
+      <DependentUpon>ThemChuyenBay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdd\ThemNhanVien.resx">
+      <DependentUpon>ThemNhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain\BanVe.resx">
+      <DependentUpon>BanVe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain\ChuyenBay.resx">
+      <DependentUpon>ChuyenBay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain\DoanhThu.resx">
+      <DependentUpon>DoanhThu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdd\ThemTuyenBay.resx">
+      <DependentUpon>ThemTuyenBay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain\KhachHang.resx">
+      <DependentUpon>KhachHang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain\TuVan.resx">
+      <DependentUpon>TuVan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain\XemVe.resx">
+      <DependentUpon>XemVe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain\NhanVien.resx">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="FormMain\QuyDinhVe.resx">
+      <DependentUpon>QuyDinhVe.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain\SanBay.resx">
+      <DependentUpon>SanBay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormAdd\ThemSanBay.resx">
+      <DependentUpon>ThemSanBay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain\TuyenBay.resx">
+      <DependentUpon>TuyenBay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\itemdatve.resx">
+      <DependentUpon>itemdatve.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControls\Listitem.resx">
+      <DependentUpon>Listitem.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\dental_sys.Model.UserModel.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user %285%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chat %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dashboard %2812%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\person %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flight %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\group.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\income.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flight %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\flight %284%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dollar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_bamboo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_vnairlines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_vietjet.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VietJet-Air-Logo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_vietnamairlines.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Resources\location.png" />
+    <Content Include="Resources\note.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

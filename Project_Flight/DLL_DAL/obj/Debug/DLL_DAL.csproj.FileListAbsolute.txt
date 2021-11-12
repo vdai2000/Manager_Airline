@@ -1,0 +1,30 @@
+C:\Users\Long Nguyen\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\DLL_DAL.dll
+C:\Users\Long Nguyen\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\DLL_DAL.pdb
+C:\Users\Long Nguyen\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.dll
+C:\Users\Long Nguyen\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.pdb
+C:\Users\Long Nguyen\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Long Nguyen\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Long Nguyen\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Long Nguyen\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Long Nguyen\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.csproj.CoreCompileInputs.cache
+C:\Users\Long Nguyen\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.csproj.CopyComplete
+C:\Users\Long Nguyen\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.csprojAssemblyReference.cache
+C:\Users\Administrator\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\DLL_DAL.dll
+C:\Users\Administrator\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\DLL_DAL.pdb
+C:\Users\Administrator\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Administrator\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Administrator\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.csproj.CoreCompileInputs.cache
+C:\Users\Administrator\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.csproj.CopyComplete
+C:\Users\Administrator\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.dll
+C:\Users\Administrator\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.pdb
+C:\Users\Administrator\Desktop\Project\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.csproj.AssemblyReference.cache
+C:\Users\Long Nguyen\Desktop\UI Application\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\DLL_DAL.dll
+C:\Users\Long Nguyen\Desktop\UI Application\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\DLL_DAL.pdb
+C:\Users\Long Nguyen\Desktop\UI Application\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Long Nguyen\Desktop\UI Application\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\Long Nguyen\Desktop\UI Application\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Long Nguyen\Desktop\UI Application\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\Long Nguyen\Desktop\UI Application\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.csproj.CoreCompileInputs.cache
+C:\Users\Long Nguyen\Desktop\UI Application\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.csproj.CopyComplete
+C:\Users\Long Nguyen\Desktop\UI Application\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.dll
+C:\Users\Long Nguyen\Desktop\UI Application\Projec_PhanMemThongMinh\Project_Flight\DLL_DAL\obj\Debug\DLL_DAL.pdb
